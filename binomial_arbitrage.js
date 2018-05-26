@@ -84,7 +84,7 @@ function main() {
 
       var lastAmount = minAmount*weight;  //为了提高成功率，数量再算上一个权重值，得到最终要买卖的数量
 
-      var fee = sell_price*lastAmount*0.0015 + buy_price*lastAmount*0.002;  //手续费，okex千分之1.5，币安千分之2
+      var fee = sell_price*lastAmount*0.002 + buy_price*lastAmount*0.002;  //手续费，okex千分之2，币安千分之2
 
       var profit = diffPrice*lastAmount;  //能赚到的毛利
 
